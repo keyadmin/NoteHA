@@ -22,3 +22,23 @@ Trong HA kiểm tra tình trạng thụ động với tham số observe : **obse
 agent-check: Báo HAProxy để kết nối với một tác nhân bên ngoài.
 **agent-addr** và **agent-port**: Thiết lập IP và cổng của tác nhân.
 **agent-inter**: Khoảng thời gian giữa các lần kiểm tra.
+----------------------------------------------------- REGEX HA -----------------------------------------------------------------
+Reggex: /^(\/[^\/]+){0,2}\/?$/gm
+DEMO
+
+It works like this:
+
+^ searches for the beginning of a line
+(\/[^\/]+) searches for a path element
+( starts a group
+\/ searches for a slash
+[^\/]+ searches for some non-slash characters
+{0,2} says, that 0 to 2 of those path elements should be found
+\/? allows trailling slashes
+$ searches for the end of the line
+Use these modifiers:
+
+g to search for several matches within the input
+m to treat every line as a separate input
+
+linkref: https://stackoverflow.com/questions/53033626/regex-for-partial-path
