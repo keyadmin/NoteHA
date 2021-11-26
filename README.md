@@ -24,6 +24,7 @@ agent-check: Báo HAProxy để kết nối với một tác nhân bên ngoài.
 **agent-inter**: Khoảng thời gian giữa các lần kiểm tra.
 
 ----------------------------------------------------- REGEX HA -----------------------------------------------------------------
+
 Regex: /^(\/[^\/]+){0,2}\/?$/gm
 DEMO:
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/az2u5zijls_image.png)
