@@ -22,9 +22,11 @@ Trong HA kiểm tra tình trạng thụ động với tham số observe : **obse
 agent-check: Báo HAProxy để kết nối với một tác nhân bên ngoài.
 **agent-addr** và **agent-port**: Thiết lập IP và cổng của tác nhân.
 **agent-inter**: Khoảng thời gian giữa các lần kiểm tra.
+
 ----------------------------------------------------- REGEX HA -----------------------------------------------------------------
-Reggex: /^(\/[^\/]+){0,2}\/?$/gm
-DEMO
+Regex: /^(\/[^\/]+){0,2}\/?$/gm
+DEMO:
+![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/az2u5zijls_image.png)
 
 It works like this:
 
