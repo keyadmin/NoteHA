@@ -1,6 +1,5 @@
 #LoadBalance:
 ###**Active Health Checks**
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/pdcvxtan19_Selection_001.png)
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/7yadz8dvpv_Selection_006.png)
 **Weight 2** : Là trọng số, trọng số cao hơn thì chỉ định server đấy xử lý nhiều hơn.
